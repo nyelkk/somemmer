@@ -171,14 +171,17 @@ header .header-action a{
 }
 
 #about{
+    margin-top: 40%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#about .about-title{
+#about .about-title h1{
     color: whitesmoke;
+    font-size: 3em;
+    text-align: center;
 }
 #about .about-title span{
     color: #FF2146;
@@ -204,4 +207,6 @@ header .header-action a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2%;
+    font-size: 2em;
 }
